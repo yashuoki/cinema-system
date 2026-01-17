@@ -1,0 +1,4 @@
+2026-01-15 06:06:07,609 | INFO | Payment Service started
+2026-01-15 06:41:18,584 | INFO | Payment Service started
+2026-01-15 07:00:20,000 | INFO | Payment successful for ticket 1
+2026-01-15 07:00:25,000 | INFO | Payment failed for ticket 2

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+    <h1>Test Page</h1>
+    <button onclick="testAlert()">Test Alert</button>
+    <button onclick="testFetch()">Test Fetch</button>
+    
+    <script>
+        function testAlert() {
+            alert('JavaScript работает!');
+        }
+        
+        async function testFetch() {
+            try {
+                const res = await fetch('http://localhost:8000/api/session/sessions');
+                const data = await res.json();
+                alert('API работает! Сеансов: ' + data.length);
+            } catch (e) {
+                alert('Ошибка API: ' + e.message);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+2026-01-15 06:05:56,613 | INFO | Tickets file not found, using default data
+2026-01-15 06:05:56,681 | INFO | Ticket Service started
+2026-01-15 06:41:07,183 | INFO | Tickets file not found, using default data
+2026-01-15 06:41:07,245 | INFO | Ticket Service started
+2026-01-15 07:00:00,000 | INFO | Ticket 1 reserved successfully
+2026-01-15 07:00:05,000 | INFO | Ticket sold: {"id": 1, "status": "SOLD"}
+2026-01-15 07:00:10,000 | INFO | Ticket 2 reserved successfully
+2026-01-15 07:00:15,000 | INFO | Ticket cancelled: {"id": 2, "status": "CANCELLED"}
+2026-01-15 06:41:37,766 | INFO | POST /api/ticket/tickets/reserve - session 1, seat A1
+2026-01-15 06:41:37,782 | ERROR | Session Service unavailable: 404 Client Error: Not Found for url: http://session-service:8000/sessions/1/seats

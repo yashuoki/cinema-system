@@ -1,0 +1,41 @@
+2026-01-15 06:05:45,142 | INFO | Sessions file not found, using default data
+2026-01-15 06:05:45,143 | INFO | Halls file not found, using default data
+2026-01-15 06:05:45,218 | INFO | Session Service started
+2026-01-15 06:40:56,037 | INFO | Sessions file not found, using default data
+2026-01-15 06:40:56,038 | INFO | Halls file not found, using default data
+2026-01-15 06:40:56,184 | INFO | Session Service started
+2026-01-15 06:41:24,310 | INFO | GET /api/monitoring/metrics
+2026-01-15 06:41:24,312 | INFO | Checking log directories: {'ticket': '/app/ticket-service/logs', 'payment': '/app/payment-service/logs'}
+2026-01-15 06:41:24,313 | INFO | Processing service: ticket, path: /app/ticket-service/logs
+2026-01-15 06:41:24,314 | INFO | Log directory exists: /app/ticket-service/logs
+2026-01-15 06:41:24,321 | INFO | Files in directory: ['ticket-service.log']
+2026-01-15 06:41:24,322 | INFO | Processing file: /app/ticket-service/logs/ticket-service.log
+2026-01-15 06:41:24,325 | INFO | Processed 4 lines from /app/ticket-service/logs/ticket-service.log
+2026-01-15 06:41:24,325 | INFO | Processing service: payment, path: /app/payment-service/logs
+2026-01-15 06:41:24,326 | INFO | Log directory exists: /app/payment-service/logs
+2026-01-15 06:41:24,330 | INFO | Files in directory: ['payment-service.log']
+2026-01-15 06:41:24,331 | INFO | Processing file: /app/payment-service/logs/payment-service.log
+2026-01-15 06:41:24,334 | INFO | Processed 2 lines from /app/payment-service/logs/payment-service.log
+2026-01-15 06:41:24,335 | INFO | Final metrics: {}
+2026-01-15 06:41:37,778 | INFO | GET /sessions/1/seats
+2026-01-15 06:41:37,779 | ERROR | Session not found
+2026-01-15 06:41:44,412 | INFO | GET /sessions
+2026-01-15 06:41:50,440 | INFO | POST /sessions - Test Movie в 18:00
+2026-01-15 06:42:02,465 | INFO | GET /cinemas
+2026-01-15 06:42:08,684 | INFO | GET /halls
+2026-01-15 06:42:17,768 | INFO | POST /sessions - Test Movie в 18:00
+2026-01-15 06:43:08,587 | INFO | GET /api/monitoring/metrics
+2026-01-15 06:43:08,587 | INFO | Checking log directories: {'ticket': '/app/ticket-service/logs', 'payment': '/app/payment-service/logs'}
+2026-01-15 06:43:08,588 | INFO | Processing service: ticket, path: /app/ticket-service/logs
+2026-01-15 06:43:08,589 | INFO | Log directory exists: /app/ticket-service/logs
+2026-01-15 06:43:08,593 | INFO | Files in directory: ['ticket-service.log']
+2026-01-15 06:43:08,593 | INFO | Processing file: /app/ticket-service/logs/ticket-service.log
+2026-01-15 06:43:08,597 | INFO | Processed 10 lines from /app/ticket-service/logs/ticket-service.log
+2026-01-15 06:43:08,598 | INFO | Processing service: payment, path: /app/payment-service/logs
+2026-01-15 06:43:08,599 | INFO | Log directory exists: /app/payment-service/logs
+2026-01-15 06:43:08,602 | INFO | Files in directory: ['payment-service.log']
+2026-01-15 06:43:08,603 | INFO | Processing file: /app/payment-service/logs/payment-service.log
+2026-01-15 06:43:08,607 | INFO | Processed 4 lines from /app/payment-service/logs/payment-service.log
+2026-01-15 06:43:08,608 | INFO | Final metrics: {'reserved': 2, 'sold': 1, 'cancelled': 1, 'payment_success': 1, 'payment_failed': 1}
+2026-01-15 06:43:34,432 | INFO | GET /api/monitoring/logs/ticket
+2026-01-15 06:43:41,586 | INFO | GET /api/monitoring/logs/payment

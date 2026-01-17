@@ -1,0 +1,958 @@
+2026-01-15 09:04:13,568 | INFO | Tickets file not found, using default data
+2026-01-15 09:04:13,629 | INFO | Ticket Service started
+2026-01-15 09:05:59,790 | INFO | Tickets file not found, using default data
+2026-01-15 09:05:59,853 | INFO | Ticket Service started
+2026-01-15 09:08:28,487 | INFO | POST /api/ticket/tickets/reserve - session 1, seat A1
+2026-01-15 09:08:28,502 | INFO | Seat A1 marked as reserved
+2026-01-15 09:08:28,504 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:08:28,504 | INFO | Ticket 1 reserved successfully
+2026-01-15 09:08:35,787 | INFO | POST /tickets/confirm/1
+2026-01-15 09:08:35,788 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:08:35,789 | INFO | Ticket sold: Ticket(id=1, session_id=1, row='A', number=1, status=<TicketStatus.SOLD: 'SOLD'>, price=250.0, email='test@example.com')
+2026-01-15 09:12:12,186 | INFO | GET /tickets/session/4
+2026-01-15 09:12:14,438 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A1
+2026-01-15 09:12:14,459 | INFO | Seat A1 marked as reserved
+2026-01-15 09:12:14,460 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:14,461 | INFO | Ticket 2 reserved successfully
+2026-01-15 09:12:14,511 | INFO | POST /tickets/confirm/2
+2026-01-15 09:12:14,512 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:14,513 | INFO | Ticket sold: Ticket(id=2, session_id=4, row='A', number=1, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:14,546 | INFO | GET /tickets/session/4
+2026-01-15 09:12:16,775 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A2
+2026-01-15 09:12:16,787 | INFO | Seat A2 marked as reserved
+2026-01-15 09:12:16,788 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:16,788 | INFO | Ticket 3 reserved successfully
+2026-01-15 09:12:16,818 | INFO | POST /tickets/cancel/3
+2026-01-15 09:12:16,822 | INFO | Seat A2 marked as available
+2026-01-15 09:12:16,823 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:16,824 | INFO | Ticket cancelled: Ticket(id=3, session_id=4, row='A', number=2, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:16,845 | INFO | GET /tickets/session/4
+2026-01-15 09:12:18,778 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A2
+2026-01-15 09:12:18,788 | INFO | Seat A2 marked as reserved
+2026-01-15 09:12:18,789 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:18,790 | INFO | Ticket 4 reserved successfully
+2026-01-15 09:12:18,817 | INFO | POST /tickets/confirm/4
+2026-01-15 09:12:18,818 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:18,819 | INFO | Ticket sold: Ticket(id=4, session_id=4, row='A', number=2, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:18,846 | INFO | GET /tickets/session/4
+2026-01-15 09:12:21,954 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A3
+2026-01-15 09:12:21,964 | INFO | Seat A3 marked as reserved
+2026-01-15 09:12:21,965 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:21,966 | INFO | Ticket 5 reserved successfully
+2026-01-15 09:12:21,989 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A4
+2026-01-15 09:12:21,999 | INFO | Seat A4 marked as reserved
+2026-01-15 09:12:22,000 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:22,000 | INFO | Ticket 6 reserved successfully
+2026-01-15 09:12:22,023 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A5
+2026-01-15 09:12:22,032 | INFO | Seat A5 marked as reserved
+2026-01-15 09:12:22,033 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:22,034 | INFO | Ticket 7 reserved successfully
+2026-01-15 09:12:22,055 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A6
+2026-01-15 09:12:22,064 | INFO | Seat A6 marked as reserved
+2026-01-15 09:12:22,065 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:22,066 | INFO | Ticket 8 reserved successfully
+2026-01-15 09:12:22,086 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A7
+2026-01-15 09:12:22,096 | INFO | Seat A7 marked as reserved
+2026-01-15 09:12:22,097 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:22,098 | INFO | Ticket 9 reserved successfully
+2026-01-15 09:12:22,123 | INFO | POST /tickets/cancel/5
+2026-01-15 09:12:22,128 | INFO | Seat A3 marked as available
+2026-01-15 09:12:22,129 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:22,130 | INFO | Ticket cancelled: Ticket(id=5, session_id=4, row='A', number=3, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:22,137 | INFO | POST /tickets/cancel/6
+2026-01-15 09:12:22,141 | INFO | Seat A4 marked as available
+2026-01-15 09:12:22,142 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:22,142 | INFO | Ticket cancelled: Ticket(id=6, session_id=4, row='A', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:22,149 | INFO | POST /tickets/cancel/7
+2026-01-15 09:12:22,154 | INFO | Seat A5 marked as available
+2026-01-15 09:12:22,155 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:22,156 | INFO | Ticket cancelled: Ticket(id=7, session_id=4, row='A', number=5, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:22,162 | INFO | POST /tickets/cancel/8
+2026-01-15 09:12:22,167 | INFO | Seat A6 marked as available
+2026-01-15 09:12:22,168 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:22,168 | INFO | Ticket cancelled: Ticket(id=8, session_id=4, row='A', number=6, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:22,175 | INFO | POST /tickets/cancel/9
+2026-01-15 09:12:22,179 | INFO | Seat A7 marked as available
+2026-01-15 09:12:22,180 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:22,181 | INFO | Ticket cancelled: Ticket(id=9, session_id=4, row='A', number=7, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:22,203 | INFO | GET /tickets/session/4
+2026-01-15 09:12:25,612 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A3
+2026-01-15 09:12:25,622 | INFO | Seat A3 marked as reserved
+2026-01-15 09:12:25,623 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:25,624 | INFO | Ticket 10 reserved successfully
+2026-01-15 09:12:25,647 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A4
+2026-01-15 09:12:25,656 | INFO | Seat A4 marked as reserved
+2026-01-15 09:12:25,656 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:25,657 | INFO | Ticket 11 reserved successfully
+2026-01-15 09:12:25,677 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A5
+2026-01-15 09:12:25,685 | INFO | Seat A5 marked as reserved
+2026-01-15 09:12:25,686 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:25,686 | INFO | Ticket 12 reserved successfully
+2026-01-15 09:12:25,706 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A6
+2026-01-15 09:12:25,715 | INFO | Seat A6 marked as reserved
+2026-01-15 09:12:25,715 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:25,716 | INFO | Ticket 13 reserved successfully
+2026-01-15 09:12:25,735 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A7
+2026-01-15 09:12:25,744 | INFO | Seat A7 marked as reserved
+2026-01-15 09:12:25,745 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:25,745 | INFO | Ticket 14 reserved successfully
+2026-01-15 09:12:25,768 | INFO | POST /tickets/confirm/10
+2026-01-15 09:12:25,768 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:25,769 | INFO | Ticket sold: Ticket(id=10, session_id=4, row='A', number=3, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:25,775 | INFO | POST /tickets/confirm/11
+2026-01-15 09:12:25,776 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:25,776 | INFO | Ticket sold: Ticket(id=11, session_id=4, row='A', number=4, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:25,782 | INFO | POST /tickets/confirm/12
+2026-01-15 09:12:25,783 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:25,784 | INFO | Ticket sold: Ticket(id=12, session_id=4, row='A', number=5, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:25,789 | INFO | POST /tickets/confirm/13
+2026-01-15 09:12:25,790 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:25,790 | INFO | Ticket sold: Ticket(id=13, session_id=4, row='A', number=6, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:25,796 | INFO | POST /tickets/confirm/14
+2026-01-15 09:12:25,797 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:25,797 | INFO | Ticket sold: Ticket(id=14, session_id=4, row='A', number=7, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:25,838 | INFO | GET /tickets/session/4
+2026-01-15 09:12:29,964 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A8
+2026-01-15 09:12:29,975 | INFO | Seat A8 marked as reserved
+2026-01-15 09:12:29,976 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:29,976 | INFO | Ticket 15 reserved successfully
+2026-01-15 09:12:30,000 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A9
+2026-01-15 09:12:30,008 | INFO | Seat A9 marked as reserved
+2026-01-15 09:12:30,009 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:30,010 | INFO | Ticket 16 reserved successfully
+2026-01-15 09:12:30,033 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A10
+2026-01-15 09:12:30,042 | INFO | Seat A10 marked as reserved
+2026-01-15 09:12:30,043 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:30,044 | INFO | Ticket 17 reserved successfully
+2026-01-15 09:12:30,067 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A11
+2026-01-15 09:12:30,076 | INFO | Seat A11 marked as reserved
+2026-01-15 09:12:30,078 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:30,078 | INFO | Ticket 18 reserved successfully
+2026-01-15 09:12:30,099 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A12
+2026-01-15 09:12:30,108 | INFO | Seat A12 marked as reserved
+2026-01-15 09:12:30,109 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:30,109 | INFO | Ticket 19 reserved successfully
+2026-01-15 09:12:30,130 | INFO | POST /api/ticket/tickets/reserve - session 4, seat B1
+2026-01-15 09:12:30,138 | INFO | Seat B1 marked as reserved
+2026-01-15 09:12:30,139 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:30,140 | INFO | Ticket 20 reserved successfully
+2026-01-15 09:12:30,165 | INFO | POST /tickets/confirm/15
+2026-01-15 09:12:30,167 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:30,167 | INFO | Ticket sold: Ticket(id=15, session_id=4, row='A', number=8, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:30,175 | INFO | POST /tickets/confirm/16
+2026-01-15 09:12:30,176 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:30,176 | INFO | Ticket sold: Ticket(id=16, session_id=4, row='A', number=9, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:30,184 | INFO | POST /tickets/confirm/17
+2026-01-15 09:12:30,185 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:30,185 | INFO | Ticket sold: Ticket(id=17, session_id=4, row='A', number=10, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:30,192 | INFO | POST /tickets/confirm/18
+2026-01-15 09:12:30,193 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:30,193 | INFO | Ticket sold: Ticket(id=18, session_id=4, row='A', number=11, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:30,200 | INFO | POST /tickets/confirm/19
+2026-01-15 09:12:30,201 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:30,201 | INFO | Ticket sold: Ticket(id=19, session_id=4, row='A', number=12, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:30,207 | INFO | POST /tickets/confirm/20
+2026-01-15 09:12:30,208 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:30,208 | INFO | Ticket sold: Ticket(id=20, session_id=4, row='B', number=1, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:30,251 | INFO | GET /tickets/session/4
+2026-01-15 09:12:32,296 | INFO | POST /api/ticket/tickets/reserve - session 4, seat B2
+2026-01-15 09:12:32,304 | INFO | Seat B2 marked as reserved
+2026-01-15 09:12:32,305 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:32,305 | INFO | Ticket 21 reserved successfully
+2026-01-15 09:12:32,328 | INFO | POST /api/ticket/tickets/reserve - session 4, seat B3
+2026-01-15 09:12:32,337 | INFO | Seat B3 marked as reserved
+2026-01-15 09:12:32,338 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:32,339 | INFO | Ticket 22 reserved successfully
+2026-01-15 09:12:32,363 | INFO | POST /tickets/confirm/21
+2026-01-15 09:12:32,364 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:32,365 | INFO | Ticket sold: Ticket(id=21, session_id=4, row='B', number=2, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:32,372 | INFO | POST /tickets/confirm/22
+2026-01-15 09:12:32,373 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:32,373 | INFO | Ticket sold: Ticket(id=22, session_id=4, row='B', number=3, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:32,405 | INFO | GET /tickets/session/4
+2026-01-15 09:12:34,632 | INFO | POST /api/ticket/tickets/reserve - session 4, seat B4
+2026-01-15 09:12:34,641 | INFO | Seat B4 marked as reserved
+2026-01-15 09:12:34,642 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:34,643 | INFO | Ticket 23 reserved successfully
+2026-01-15 09:12:34,674 | INFO | POST /api/ticket/tickets/reserve - session 4, seat B5
+2026-01-15 09:12:34,714 | INFO | Seat B5 marked as reserved
+2026-01-15 09:12:34,715 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:34,715 | INFO | Ticket 24 reserved successfully
+2026-01-15 09:12:34,741 | INFO | POST /api/ticket/tickets/reserve - session 4, seat B6
+2026-01-15 09:12:34,752 | INFO | Seat B6 marked as reserved
+2026-01-15 09:12:34,753 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:34,754 | INFO | Ticket 25 reserved successfully
+2026-01-15 09:12:34,787 | INFO | POST /tickets/cancel/23
+2026-01-15 09:12:34,796 | INFO | Seat B4 marked as available
+2026-01-15 09:12:34,797 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:34,799 | INFO | Ticket cancelled: Ticket(id=23, session_id=4, row='B', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:34,814 | INFO | POST /tickets/cancel/24
+2026-01-15 09:12:34,820 | INFO | Seat B5 marked as available
+2026-01-15 09:12:34,822 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:34,824 | INFO | Ticket cancelled: Ticket(id=24, session_id=4, row='B', number=5, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:34,851 | INFO | POST /tickets/cancel/25
+2026-01-15 09:12:34,869 | INFO | Seat B6 marked as available
+2026-01-15 09:12:34,871 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:34,871 | INFO | Ticket cancelled: Ticket(id=25, session_id=4, row='B', number=6, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:34,901 | INFO | GET /tickets/session/4
+2026-01-15 09:12:38,155 | INFO | POST /api/ticket/tickets/reserve - session 4, seat B6
+2026-01-15 09:12:38,167 | INFO | Seat B6 marked as reserved
+2026-01-15 09:12:38,168 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:38,168 | INFO | Ticket 26 reserved successfully
+2026-01-15 09:12:38,193 | INFO | POST /api/ticket/tickets/reserve - session 4, seat B5
+2026-01-15 09:12:38,202 | INFO | Seat B5 marked as reserved
+2026-01-15 09:12:38,203 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:38,204 | INFO | Ticket 27 reserved successfully
+2026-01-15 09:12:38,224 | INFO | POST /api/ticket/tickets/reserve - session 4, seat B4
+2026-01-15 09:12:38,233 | INFO | Seat B4 marked as reserved
+2026-01-15 09:12:38,233 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:38,234 | INFO | Ticket 28 reserved successfully
+2026-01-15 09:12:38,256 | INFO | POST /tickets/confirm/26
+2026-01-15 09:12:38,258 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:38,258 | INFO | Ticket sold: Ticket(id=26, session_id=4, row='B', number=6, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:38,266 | INFO | POST /tickets/confirm/27
+2026-01-15 09:12:38,267 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:38,267 | INFO | Ticket sold: Ticket(id=27, session_id=4, row='B', number=5, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:38,273 | INFO | POST /tickets/confirm/28
+2026-01-15 09:12:38,274 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:38,275 | INFO | Ticket sold: Ticket(id=28, session_id=4, row='B', number=4, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:38,307 | INFO | GET /tickets/session/4
+2026-01-15 09:12:42,995 | INFO | GET /tickets
+2026-01-15 09:12:52,656 | INFO | POST /tickets/cancel/13
+2026-01-15 09:12:52,668 | INFO | Seat A6 marked as available
+2026-01-15 09:12:52,670 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:52,671 | INFO | Ticket cancelled: Ticket(id=13, session_id=4, row='A', number=6, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:52,707 | INFO | GET /tickets
+2026-01-15 09:12:55,115 | INFO | POST /tickets/cancel/17
+2026-01-15 09:12:55,121 | INFO | Seat A10 marked as available
+2026-01-15 09:12:55,122 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:55,123 | INFO | Ticket cancelled: Ticket(id=17, session_id=4, row='A', number=10, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:55,156 | INFO | GET /tickets
+2026-01-15 09:12:59,836 | INFO | POST /tickets/cancel/16
+2026-01-15 09:12:59,847 | INFO | Seat A9 marked as available
+2026-01-15 09:12:59,853 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:12:59,854 | INFO | Ticket cancelled: Ticket(id=16, session_id=4, row='A', number=9, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:12:59,901 | INFO | GET /tickets
+2026-01-15 09:13:00,826 | INFO | GET /tickets/session/4
+2026-01-15 09:13:02,863 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A9
+2026-01-15 09:13:02,872 | INFO | Seat A9 marked as reserved
+2026-01-15 09:13:02,873 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:02,873 | INFO | Ticket 29 reserved successfully
+2026-01-15 09:13:02,899 | INFO | POST /tickets/cancel/29
+2026-01-15 09:13:02,903 | INFO | Seat A9 marked as available
+2026-01-15 09:13:02,904 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:02,905 | INFO | Ticket cancelled: Ticket(id=29, session_id=4, row='A', number=9, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:02,929 | INFO | GET /tickets/session/4
+2026-01-15 09:13:06,165 | INFO | POST /api/ticket/tickets/reserve - session 4, seat A9
+2026-01-15 09:13:06,174 | INFO | Seat A9 marked as reserved
+2026-01-15 09:13:06,175 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:06,176 | INFO | Ticket 30 reserved successfully
+2026-01-15 09:13:06,199 | INFO | POST /tickets/confirm/30
+2026-01-15 09:13:06,200 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:06,201 | INFO | Ticket sold: Ticket(id=30, session_id=4, row='A', number=9, status=<TicketStatus.SOLD: 'SOLD'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:06,227 | INFO | GET /tickets/session/4
+2026-01-15 09:13:11,592 | INFO | GET /tickets
+2026-01-15 09:13:11,617 | INFO | POST /tickets/cancel/2
+2026-01-15 09:13:11,622 | INFO | Seat A1 marked as available
+2026-01-15 09:13:11,623 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:11,624 | INFO | Ticket cancelled: Ticket(id=2, session_id=4, row='A', number=1, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:11,654 | INFO | POST /tickets/cancel/4
+2026-01-15 09:13:11,659 | INFO | Seat A2 marked as available
+2026-01-15 09:13:11,660 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:11,660 | INFO | Ticket cancelled: Ticket(id=4, session_id=4, row='A', number=2, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:11,690 | INFO | POST /tickets/cancel/10
+2026-01-15 09:13:11,697 | INFO | Seat A3 marked as available
+2026-01-15 09:13:11,698 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:11,699 | INFO | Ticket cancelled: Ticket(id=10, session_id=4, row='A', number=3, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:11,728 | INFO | POST /tickets/cancel/11
+2026-01-15 09:13:11,734 | INFO | Seat A4 marked as available
+2026-01-15 09:13:11,735 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:11,735 | INFO | Ticket cancelled: Ticket(id=11, session_id=4, row='A', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:11,761 | INFO | POST /tickets/cancel/12
+2026-01-15 09:13:11,767 | INFO | Seat A5 marked as available
+2026-01-15 09:13:11,768 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:11,768 | INFO | Ticket cancelled: Ticket(id=12, session_id=4, row='A', number=5, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:11,795 | INFO | POST /tickets/cancel/14
+2026-01-15 09:13:11,800 | INFO | Seat A7 marked as available
+2026-01-15 09:13:11,801 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:11,801 | INFO | Ticket cancelled: Ticket(id=14, session_id=4, row='A', number=7, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:11,827 | INFO | POST /tickets/cancel/15
+2026-01-15 09:13:11,832 | INFO | Seat A8 marked as available
+2026-01-15 09:13:11,833 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:11,834 | INFO | Ticket cancelled: Ticket(id=15, session_id=4, row='A', number=8, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:11,859 | INFO | POST /tickets/cancel/18
+2026-01-15 09:13:11,866 | INFO | Seat A11 marked as available
+2026-01-15 09:13:11,867 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:11,867 | INFO | Ticket cancelled: Ticket(id=18, session_id=4, row='A', number=11, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:11,892 | INFO | POST /tickets/cancel/19
+2026-01-15 09:13:11,898 | INFO | Seat A12 marked as available
+2026-01-15 09:13:11,899 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:11,899 | INFO | Ticket cancelled: Ticket(id=19, session_id=4, row='A', number=12, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:11,923 | INFO | POST /tickets/cancel/20
+2026-01-15 09:13:11,927 | INFO | Seat B1 marked as available
+2026-01-15 09:13:11,929 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:11,929 | INFO | Ticket cancelled: Ticket(id=20, session_id=4, row='B', number=1, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:11,952 | INFO | POST /tickets/cancel/21
+2026-01-15 09:13:11,956 | INFO | Seat B2 marked as available
+2026-01-15 09:13:11,957 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:11,958 | INFO | Ticket cancelled: Ticket(id=21, session_id=4, row='B', number=2, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:11,983 | INFO | POST /tickets/cancel/22
+2026-01-15 09:13:11,988 | INFO | Seat B3 marked as available
+2026-01-15 09:13:11,989 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:11,990 | INFO | Ticket cancelled: Ticket(id=22, session_id=4, row='B', number=3, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:12,015 | INFO | POST /tickets/cancel/26
+2026-01-15 09:13:12,019 | INFO | Seat B6 marked as available
+2026-01-15 09:13:12,020 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:12,021 | INFO | Ticket cancelled: Ticket(id=26, session_id=4, row='B', number=6, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:12,046 | INFO | POST /tickets/cancel/27
+2026-01-15 09:13:12,051 | INFO | Seat B5 marked as available
+2026-01-15 09:13:12,052 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:12,052 | INFO | Ticket cancelled: Ticket(id=27, session_id=4, row='B', number=5, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:12,076 | INFO | POST /tickets/cancel/28
+2026-01-15 09:13:12,081 | INFO | Seat B4 marked as available
+2026-01-15 09:13:12,082 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:12,082 | INFO | Ticket cancelled: Ticket(id=28, session_id=4, row='B', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:12,107 | INFO | POST /tickets/cancel/30
+2026-01-15 09:13:12,111 | INFO | Seat A9 marked as available
+2026-01-15 09:13:12,112 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:12,113 | INFO | Ticket cancelled: Ticket(id=30, session_id=4, row='A', number=9, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=144.0, email='customer@example.com')
+2026-01-15 09:13:12,126 | INFO | GET /tickets
+2026-01-15 09:13:13,526 | INFO | GET /tickets/session/4
+2026-01-15 09:13:32,388 | INFO | GET /tickets/session/5
+2026-01-15 09:13:34,168 | INFO | POST /api/ticket/tickets/reserve - session 5, seat B4
+2026-01-15 09:13:34,177 | INFO | Seat B4 marked as reserved
+2026-01-15 09:13:34,179 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:34,179 | INFO | Ticket 31 reserved successfully
+2026-01-15 09:13:34,211 | INFO | POST /tickets/cancel/31
+2026-01-15 09:13:34,217 | INFO | Seat B4 marked as available
+2026-01-15 09:13:34,218 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:34,218 | INFO | Ticket cancelled: Ticket(id=31, session_id=5, row='B', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:34,240 | INFO | GET /tickets/session/5
+2026-01-15 09:13:37,186 | INFO | POST /api/ticket/tickets/reserve - session 5, seat B4
+2026-01-15 09:13:37,194 | INFO | Seat B4 marked as reserved
+2026-01-15 09:13:37,196 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:37,196 | INFO | Ticket 32 reserved successfully
+2026-01-15 09:13:37,221 | INFO | POST /tickets/confirm/32
+2026-01-15 09:13:37,222 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:37,223 | INFO | Ticket sold: Ticket(id=32, session_id=5, row='B', number=4, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:37,251 | INFO | GET /tickets/session/5
+2026-01-15 09:13:39,867 | INFO | POST /api/ticket/tickets/reserve - session 5, seat B5
+2026-01-15 09:13:39,876 | INFO | Seat B5 marked as reserved
+2026-01-15 09:13:39,877 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:39,877 | INFO | Ticket 33 reserved successfully
+2026-01-15 09:13:39,900 | INFO | POST /api/ticket/tickets/reserve - session 5, seat B6
+2026-01-15 09:13:39,910 | INFO | Seat B6 marked as reserved
+2026-01-15 09:13:39,911 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:39,912 | INFO | Ticket 34 reserved successfully
+2026-01-15 09:13:39,934 | INFO | POST /api/ticket/tickets/reserve - session 5, seat B7
+2026-01-15 09:13:39,943 | INFO | Seat B7 marked as reserved
+2026-01-15 09:13:39,944 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:39,944 | INFO | Ticket 35 reserved successfully
+2026-01-15 09:13:39,967 | INFO | POST /api/ticket/tickets/reserve - session 5, seat B8
+2026-01-15 09:13:39,977 | INFO | Seat B8 marked as reserved
+2026-01-15 09:13:39,978 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:39,979 | INFO | Ticket 36 reserved successfully
+2026-01-15 09:13:40,005 | INFO | POST /tickets/confirm/33
+2026-01-15 09:13:40,006 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:40,006 | INFO | Ticket sold: Ticket(id=33, session_id=5, row='B', number=5, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:40,014 | INFO | POST /tickets/confirm/34
+2026-01-15 09:13:40,015 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:40,015 | INFO | Ticket sold: Ticket(id=34, session_id=5, row='B', number=6, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:40,023 | INFO | POST /tickets/confirm/35
+2026-01-15 09:13:40,024 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:40,025 | INFO | Ticket sold: Ticket(id=35, session_id=5, row='B', number=7, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:40,032 | INFO | POST /tickets/confirm/36
+2026-01-15 09:13:40,033 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:40,033 | INFO | Ticket sold: Ticket(id=36, session_id=5, row='B', number=8, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:40,071 | INFO | GET /tickets/session/5
+2026-01-15 09:13:43,900 | INFO | POST /api/ticket/tickets/reserve - session 5, seat B9
+2026-01-15 09:13:43,909 | INFO | Seat B9 marked as reserved
+2026-01-15 09:13:43,910 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:43,910 | INFO | Ticket 37 reserved successfully
+2026-01-15 09:13:43,934 | INFO | POST /api/ticket/tickets/reserve - session 5, seat D10
+2026-01-15 09:13:43,943 | INFO | Seat D10 marked as reserved
+2026-01-15 09:13:43,944 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:43,945 | INFO | Ticket 38 reserved successfully
+2026-01-15 09:13:43,968 | INFO | POST /api/ticket/tickets/reserve - session 5, seat E10
+2026-01-15 09:13:43,977 | INFO | Seat E10 marked as reserved
+2026-01-15 09:13:43,978 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:43,978 | INFO | Ticket 39 reserved successfully
+2026-01-15 09:13:44,002 | INFO | POST /api/ticket/tickets/reserve - session 5, seat D9
+2026-01-15 09:13:44,011 | INFO | Seat D9 marked as reserved
+2026-01-15 09:13:44,012 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:44,013 | INFO | Ticket 40 reserved successfully
+2026-01-15 09:13:44,036 | INFO | POST /api/ticket/tickets/reserve - session 5, seat E9
+2026-01-15 09:13:44,044 | INFO | Seat E9 marked as reserved
+2026-01-15 09:13:44,046 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:44,046 | INFO | Ticket 41 reserved successfully
+2026-01-15 09:13:44,069 | INFO | POST /api/ticket/tickets/reserve - session 5, seat D8
+2026-01-15 09:13:44,078 | INFO | Seat D8 marked as reserved
+2026-01-15 09:13:44,079 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:44,079 | INFO | Ticket 42 reserved successfully
+2026-01-15 09:13:44,100 | INFO | POST /api/ticket/tickets/reserve - session 5, seat E8
+2026-01-15 09:13:44,108 | INFO | Seat E8 marked as reserved
+2026-01-15 09:13:44,110 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:44,110 | INFO | Ticket 43 reserved successfully
+2026-01-15 09:13:44,133 | INFO | POST /tickets/cancel/37
+2026-01-15 09:13:44,138 | INFO | Seat B9 marked as available
+2026-01-15 09:13:44,140 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:44,140 | INFO | Ticket cancelled: Ticket(id=37, session_id=5, row='B', number=9, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:44,147 | INFO | POST /tickets/cancel/38
+2026-01-15 09:13:44,152 | INFO | Seat D10 marked as available
+2026-01-15 09:13:44,153 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:44,154 | INFO | Ticket cancelled: Ticket(id=38, session_id=5, row='D', number=10, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:44,160 | INFO | POST /tickets/cancel/39
+2026-01-15 09:13:44,165 | INFO | Seat E10 marked as available
+2026-01-15 09:13:44,167 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:44,167 | INFO | Ticket cancelled: Ticket(id=39, session_id=5, row='E', number=10, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:44,173 | INFO | POST /tickets/cancel/40
+2026-01-15 09:13:44,178 | INFO | Seat D9 marked as available
+2026-01-15 09:13:44,179 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:44,180 | INFO | Ticket cancelled: Ticket(id=40, session_id=5, row='D', number=9, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:44,186 | INFO | POST /tickets/cancel/41
+2026-01-15 09:13:44,191 | INFO | Seat E9 marked as available
+2026-01-15 09:13:44,192 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:44,192 | INFO | Ticket cancelled: Ticket(id=41, session_id=5, row='E', number=9, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:44,198 | INFO | POST /tickets/cancel/42
+2026-01-15 09:13:44,203 | INFO | Seat D8 marked as available
+2026-01-15 09:13:44,204 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:44,204 | INFO | Ticket cancelled: Ticket(id=42, session_id=5, row='D', number=8, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:44,211 | INFO | POST /tickets/cancel/43
+2026-01-15 09:13:44,217 | INFO | Seat E8 marked as available
+2026-01-15 09:13:44,218 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:44,219 | INFO | Ticket cancelled: Ticket(id=43, session_id=5, row='E', number=8, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:44,242 | INFO | GET /tickets/session/5
+2026-01-15 09:13:47,606 | INFO | POST /api/ticket/tickets/reserve - session 5, seat D8
+2026-01-15 09:13:47,617 | INFO | Seat D8 marked as reserved
+2026-01-15 09:13:47,618 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:47,619 | INFO | Ticket 44 reserved successfully
+2026-01-15 09:13:47,642 | INFO | POST /api/ticket/tickets/reserve - session 5, seat E8
+2026-01-15 09:13:47,654 | INFO | Seat E8 marked as reserved
+2026-01-15 09:13:47,655 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:47,655 | INFO | Ticket 45 reserved successfully
+2026-01-15 09:13:47,679 | INFO | POST /api/ticket/tickets/reserve - session 5, seat E9
+2026-01-15 09:13:47,689 | INFO | Seat E9 marked as reserved
+2026-01-15 09:13:47,690 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:47,690 | INFO | Ticket 46 reserved successfully
+2026-01-15 09:13:47,714 | INFO | POST /api/ticket/tickets/reserve - session 5, seat D9
+2026-01-15 09:13:47,725 | INFO | Seat D9 marked as reserved
+2026-01-15 09:13:47,726 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:47,727 | INFO | Ticket 47 reserved successfully
+2026-01-15 09:13:47,755 | INFO | POST /api/ticket/tickets/reserve - session 5, seat D10
+2026-01-15 09:13:47,765 | INFO | Seat D10 marked as reserved
+2026-01-15 09:13:47,767 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:47,768 | INFO | Ticket 48 reserved successfully
+2026-01-15 09:13:47,792 | INFO | POST /api/ticket/tickets/reserve - session 5, seat E10
+2026-01-15 09:13:47,802 | INFO | Seat E10 marked as reserved
+2026-01-15 09:13:47,803 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:47,803 | INFO | Ticket 49 reserved successfully
+2026-01-15 09:13:47,827 | INFO | POST /tickets/cancel/44
+2026-01-15 09:13:47,832 | INFO | Seat D8 marked as available
+2026-01-15 09:13:47,834 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:47,834 | INFO | Ticket cancelled: Ticket(id=44, session_id=5, row='D', number=8, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:47,840 | INFO | POST /tickets/cancel/45
+2026-01-15 09:13:47,845 | INFO | Seat E8 marked as available
+2026-01-15 09:13:47,846 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:47,847 | INFO | Ticket cancelled: Ticket(id=45, session_id=5, row='E', number=8, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:47,854 | INFO | POST /tickets/cancel/46
+2026-01-15 09:13:47,859 | INFO | Seat E9 marked as available
+2026-01-15 09:13:47,860 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:47,860 | INFO | Ticket cancelled: Ticket(id=46, session_id=5, row='E', number=9, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:47,867 | INFO | POST /tickets/cancel/47
+2026-01-15 09:13:47,872 | INFO | Seat D9 marked as available
+2026-01-15 09:13:47,873 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:47,873 | INFO | Ticket cancelled: Ticket(id=47, session_id=5, row='D', number=9, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:47,879 | INFO | POST /tickets/cancel/48
+2026-01-15 09:13:47,884 | INFO | Seat D10 marked as available
+2026-01-15 09:13:47,885 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:47,886 | INFO | Ticket cancelled: Ticket(id=48, session_id=5, row='D', number=10, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:47,892 | INFO | POST /tickets/cancel/49
+2026-01-15 09:13:47,897 | INFO | Seat E10 marked as available
+2026-01-15 09:13:47,899 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:47,899 | INFO | Ticket cancelled: Ticket(id=49, session_id=5, row='E', number=10, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:47,922 | INFO | GET /tickets/session/5
+2026-01-15 09:13:51,576 | INFO | POST /api/ticket/tickets/reserve - session 5, seat D8
+2026-01-15 09:13:51,586 | INFO | Seat D8 marked as reserved
+2026-01-15 09:13:51,588 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:51,588 | INFO | Ticket 50 reserved successfully
+2026-01-15 09:13:51,613 | INFO | POST /api/ticket/tickets/reserve - session 5, seat E8
+2026-01-15 09:13:51,622 | INFO | Seat E8 marked as reserved
+2026-01-15 09:13:51,623 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:51,623 | INFO | Ticket 51 reserved successfully
+2026-01-15 09:13:51,644 | INFO | POST /api/ticket/tickets/reserve - session 5, seat D9
+2026-01-15 09:13:51,652 | INFO | Seat D9 marked as reserved
+2026-01-15 09:13:51,653 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:51,654 | INFO | Ticket 52 reserved successfully
+2026-01-15 09:13:51,674 | INFO | POST /api/ticket/tickets/reserve - session 5, seat E9
+2026-01-15 09:13:51,683 | INFO | Seat E9 marked as reserved
+2026-01-15 09:13:51,684 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:51,684 | INFO | Ticket 53 reserved successfully
+2026-01-15 09:13:51,704 | INFO | POST /api/ticket/tickets/reserve - session 5, seat D10
+2026-01-15 09:13:51,713 | INFO | Seat D10 marked as reserved
+2026-01-15 09:13:51,714 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:51,715 | INFO | Ticket 54 reserved successfully
+2026-01-15 09:13:51,735 | INFO | POST /api/ticket/tickets/reserve - session 5, seat E10
+2026-01-15 09:13:51,744 | INFO | Seat E10 marked as reserved
+2026-01-15 09:13:51,745 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:51,746 | INFO | Ticket 55 reserved successfully
+2026-01-15 09:13:51,769 | INFO | POST /tickets/confirm/50
+2026-01-15 09:13:51,771 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:51,771 | INFO | Ticket sold: Ticket(id=50, session_id=5, row='D', number=8, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:51,779 | INFO | POST /tickets/confirm/51
+2026-01-15 09:13:51,780 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:51,780 | INFO | Ticket sold: Ticket(id=51, session_id=5, row='E', number=8, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:51,786 | INFO | POST /tickets/confirm/52
+2026-01-15 09:13:51,787 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:51,788 | INFO | Ticket sold: Ticket(id=52, session_id=5, row='D', number=9, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:51,795 | INFO | POST /tickets/confirm/53
+2026-01-15 09:13:51,796 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:51,796 | INFO | Ticket sold: Ticket(id=53, session_id=5, row='E', number=9, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:51,803 | INFO | POST /tickets/confirm/54
+2026-01-15 09:13:51,805 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:51,805 | INFO | Ticket sold: Ticket(id=54, session_id=5, row='D', number=10, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:51,811 | INFO | POST /tickets/confirm/55
+2026-01-15 09:13:51,813 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:13:51,813 | INFO | Ticket sold: Ticket(id=55, session_id=5, row='E', number=10, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:13:51,858 | INFO | GET /tickets/session/5
+2026-01-15 09:16:19,992 | INFO | GET /tickets/session/5
+2026-01-15 09:16:25,135 | INFO | GET /tickets/session/5
+2026-01-15 09:16:28,122 | INFO | POST /api/ticket/tickets/reserve - session 5, seat C4
+2026-01-15 09:16:28,131 | INFO | Seat C4 marked as reserved
+2026-01-15 09:16:28,133 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:16:28,133 | INFO | Ticket 56 reserved successfully
+2026-01-15 09:16:28,156 | INFO | POST /api/ticket/tickets/reserve - session 5, seat C5
+2026-01-15 09:16:28,165 | INFO | Seat C5 marked as reserved
+2026-01-15 09:16:28,167 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:16:28,167 | INFO | Ticket 57 reserved successfully
+2026-01-15 09:16:28,189 | INFO | POST /api/ticket/tickets/reserve - session 5, seat C6
+2026-01-15 09:16:28,198 | INFO | Seat C6 marked as reserved
+2026-01-15 09:16:28,200 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:16:28,200 | INFO | Ticket 58 reserved successfully
+2026-01-15 09:16:28,227 | INFO | POST /tickets/cancel/56
+2026-01-15 09:16:28,232 | INFO | Seat C4 marked as available
+2026-01-15 09:16:28,234 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:16:28,234 | INFO | Ticket cancelled: Ticket(id=56, session_id=5, row='C', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:16:28,241 | INFO | POST /tickets/cancel/57
+2026-01-15 09:16:28,246 | INFO | Seat C5 marked as available
+2026-01-15 09:16:28,247 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:16:28,247 | INFO | Ticket cancelled: Ticket(id=57, session_id=5, row='C', number=5, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:16:28,254 | INFO | POST /tickets/cancel/58
+2026-01-15 09:16:28,259 | INFO | Seat C6 marked as available
+2026-01-15 09:16:28,260 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:16:28,260 | INFO | Ticket cancelled: Ticket(id=58, session_id=5, row='C', number=6, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=333.0, email='customer@example.com')
+2026-01-15 09:16:28,284 | INFO | GET /tickets/session/5
+2026-01-15 09:16:31,889 | INFO | POST /api/ticket/tickets/reserve - session 5, seat C4
+2026-01-15 09:16:31,900 | INFO | Seat C4 marked as reserved
+2026-01-15 09:16:31,902 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:16:31,902 | INFO | Ticket 59 reserved successfully
+2026-01-15 09:16:31,926 | INFO | POST /api/ticket/tickets/reserve - session 5, seat C5
+2026-01-15 09:16:31,938 | INFO | Seat C5 marked as reserved
+2026-01-15 09:16:31,939 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:16:31,940 | INFO | Ticket 60 reserved successfully
+2026-01-15 09:16:31,963 | INFO | POST /api/ticket/tickets/reserve - session 5, seat C6
+2026-01-15 09:16:31,973 | INFO | Seat C6 marked as reserved
+2026-01-15 09:16:31,974 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:16:31,975 | INFO | Ticket 61 reserved successfully
+2026-01-15 09:16:32,004 | INFO | POST /tickets/confirm/59
+2026-01-15 09:16:32,006 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:16:32,006 | INFO | Ticket sold: Ticket(id=59, session_id=5, row='C', number=4, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:16:32,013 | INFO | POST /tickets/confirm/60
+2026-01-15 09:16:32,015 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:16:32,015 | INFO | Ticket sold: Ticket(id=60, session_id=5, row='C', number=5, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:16:32,022 | INFO | POST /tickets/confirm/61
+2026-01-15 09:16:32,023 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:16:32,023 | INFO | Ticket sold: Ticket(id=61, session_id=5, row='C', number=6, status=<TicketStatus.SOLD: 'SOLD'>, price=333.0, email='customer@example.com')
+2026-01-15 09:16:32,060 | INFO | GET /tickets/session/5
+2026-01-15 09:25:10,073 | INFO | Tickets file not found, using default data
+2026-01-15 09:25:10,129 | INFO | Ticket Service started
+2026-01-15 09:31:15,675 | INFO | Tickets file not found, using default data
+2026-01-15 09:31:15,773 | INFO | Ticket Service started
+2026-01-15 09:32:14,613 | INFO | Tickets file not found, using default data
+2026-01-15 09:32:14,668 | INFO | Ticket Service started
+2026-01-15 09:35:18,280 | INFO | GET /tickets/session/1
+2026-01-15 09:35:20,341 | INFO | POST /api/ticket/tickets/reserve - session 1, seat A2
+2026-01-15 09:35:20,356 | INFO | Seat A2 marked as reserved
+2026-01-15 09:35:20,357 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:35:20,358 | INFO | Ticket 1 reserved successfully
+2026-01-15 09:35:20,395 | INFO | POST /api/ticket/tickets/reserve - session 1, seat A3
+2026-01-15 09:35:20,407 | INFO | Seat A3 marked as reserved
+2026-01-15 09:35:20,408 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:35:20,409 | INFO | Ticket 2 reserved successfully
+2026-01-15 09:35:20,432 | INFO | POST /api/ticket/tickets/reserve - session 1, seat A4
+2026-01-15 09:35:20,442 | INFO | Seat A4 marked as reserved
+2026-01-15 09:35:20,443 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:35:20,443 | INFO | Ticket 3 reserved successfully
+2026-01-15 09:35:20,487 | INFO | POST /tickets/confirm/1
+2026-01-15 09:35:20,488 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:35:20,489 | INFO | Ticket sold: Ticket(id=1, session_id=1, row='A', number=2, status=<TicketStatus.SOLD: 'SOLD'>, price=111.0, email='customer@example.com')
+2026-01-15 09:35:20,496 | INFO | POST /tickets/confirm/2
+2026-01-15 09:35:20,497 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:35:20,498 | INFO | Ticket sold: Ticket(id=2, session_id=1, row='A', number=3, status=<TicketStatus.SOLD: 'SOLD'>, price=111.0, email='customer@example.com')
+2026-01-15 09:35:20,506 | INFO | POST /tickets/confirm/3
+2026-01-15 09:35:20,507 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:35:20,507 | INFO | Ticket sold: Ticket(id=3, session_id=1, row='A', number=4, status=<TicketStatus.SOLD: 'SOLD'>, price=111.0, email='customer@example.com')
+2026-01-15 09:35:20,554 | INFO | GET /tickets/session/1
+2026-01-15 09:35:22,466 | INFO | POST /api/ticket/tickets/reserve - session 1, seat A5
+2026-01-15 09:35:22,476 | INFO | Seat A5 marked as reserved
+2026-01-15 09:35:22,477 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:35:22,478 | INFO | Ticket 4 reserved successfully
+2026-01-15 09:35:22,500 | INFO | POST /api/ticket/tickets/reserve - session 1, seat A6
+2026-01-15 09:35:22,511 | INFO | Seat A6 marked as reserved
+2026-01-15 09:35:22,512 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:35:22,512 | INFO | Ticket 5 reserved successfully
+2026-01-15 09:35:22,533 | INFO | POST /api/ticket/tickets/reserve - session 1, seat A7
+2026-01-15 09:35:22,542 | INFO | Seat A7 marked as reserved
+2026-01-15 09:35:22,543 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:35:22,543 | INFO | Ticket 6 reserved successfully
+2026-01-15 09:35:22,569 | INFO | POST /tickets/cancel/4
+2026-01-15 09:35:22,574 | INFO | Seat A5 marked as available
+2026-01-15 09:35:22,575 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:35:22,575 | INFO | Ticket cancelled: Ticket(id=4, session_id=1, row='A', number=5, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=111.0, email='customer@example.com')
+2026-01-15 09:35:22,582 | INFO | POST /tickets/cancel/5
+2026-01-15 09:35:22,588 | INFO | Seat A6 marked as available
+2026-01-15 09:35:22,589 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:35:22,589 | INFO | Ticket cancelled: Ticket(id=5, session_id=1, row='A', number=6, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=111.0, email='customer@example.com')
+2026-01-15 09:35:22,597 | INFO | POST /tickets/cancel/6
+2026-01-15 09:35:22,602 | INFO | Seat A7 marked as available
+2026-01-15 09:35:22,603 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:35:22,603 | INFO | Ticket cancelled: Ticket(id=6, session_id=1, row='A', number=7, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=111.0, email='customer@example.com')
+2026-01-15 09:35:22,628 | INFO | GET /tickets/session/1
+2026-01-15 09:40:06,646 | INFO | GET /tickets/session/2
+2026-01-15 09:40:09,354 | INFO | POST /api/ticket/tickets/reserve - session 2, seat C3
+2026-01-15 09:40:09,365 | INFO | Seat C3 marked as reserved
+2026-01-15 09:40:09,366 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:09,367 | INFO | Ticket 7 reserved successfully
+2026-01-15 09:40:09,390 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B3
+2026-01-15 09:40:09,401 | INFO | Seat B3 marked as reserved
+2026-01-15 09:40:09,402 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:09,403 | INFO | Ticket 8 reserved successfully
+2026-01-15 09:40:09,430 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B4
+2026-01-15 09:40:09,442 | INFO | Seat B4 marked as reserved
+2026-01-15 09:40:09,443 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:09,444 | INFO | Ticket 9 reserved successfully
+2026-01-15 09:40:09,470 | INFO | POST /api/ticket/tickets/reserve - session 2, seat C4
+2026-01-15 09:40:09,484 | INFO | Seat C4 marked as reserved
+2026-01-15 09:40:09,485 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:09,486 | INFO | Ticket 10 reserved successfully
+2026-01-15 09:40:09,531 | INFO | POST /tickets/cancel/7
+2026-01-15 09:40:09,541 | INFO | Seat C3 marked as available
+2026-01-15 09:40:09,544 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:09,546 | INFO | Ticket cancelled: Ticket(id=7, session_id=2, row='C', number=3, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=21321.0, email='customer@example.com')
+2026-01-15 09:40:09,557 | INFO | POST /tickets/cancel/8
+2026-01-15 09:40:09,565 | INFO | Seat B3 marked as available
+2026-01-15 09:40:09,566 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:09,567 | INFO | Ticket cancelled: Ticket(id=8, session_id=2, row='B', number=3, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=21321.0, email='customer@example.com')
+2026-01-15 09:40:09,576 | INFO | POST /tickets/cancel/9
+2026-01-15 09:40:09,582 | INFO | Seat B4 marked as available
+2026-01-15 09:40:09,583 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:09,584 | INFO | Ticket cancelled: Ticket(id=9, session_id=2, row='B', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=21321.0, email='customer@example.com')
+2026-01-15 09:40:09,598 | INFO | POST /tickets/cancel/10
+2026-01-15 09:40:09,607 | INFO | Seat C4 marked as available
+2026-01-15 09:40:09,608 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:09,608 | INFO | Ticket cancelled: Ticket(id=10, session_id=2, row='C', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=21321.0, email='customer@example.com')
+2026-01-15 09:40:09,634 | INFO | GET /tickets/session/2
+2026-01-15 09:40:13,150 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B3
+2026-01-15 09:40:13,161 | INFO | Seat B3 marked as reserved
+2026-01-15 09:40:13,162 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:13,163 | INFO | Ticket 11 reserved successfully
+2026-01-15 09:40:13,186 | INFO | POST /api/ticket/tickets/reserve - session 2, seat C3
+2026-01-15 09:40:13,197 | INFO | Seat C3 marked as reserved
+2026-01-15 09:40:13,198 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:13,199 | INFO | Ticket 12 reserved successfully
+2026-01-15 09:40:13,221 | INFO | POST /api/ticket/tickets/reserve - session 2, seat C4
+2026-01-15 09:40:13,231 | INFO | Seat C4 marked as reserved
+2026-01-15 09:40:13,232 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:13,233 | INFO | Ticket 13 reserved successfully
+2026-01-15 09:40:13,256 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B4
+2026-01-15 09:40:13,265 | INFO | Seat B4 marked as reserved
+2026-01-15 09:40:13,266 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:13,266 | INFO | Ticket 14 reserved successfully
+2026-01-15 09:40:13,292 | INFO | POST /tickets/cancel/11
+2026-01-15 09:40:13,298 | INFO | Seat B3 marked as available
+2026-01-15 09:40:13,299 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:13,300 | INFO | Ticket cancelled: Ticket(id=11, session_id=2, row='B', number=3, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=21321.0, email='customer@example.com')
+2026-01-15 09:40:13,307 | INFO | POST /tickets/cancel/12
+2026-01-15 09:40:13,313 | INFO | Seat C3 marked as available
+2026-01-15 09:40:13,314 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:13,314 | INFO | Ticket cancelled: Ticket(id=12, session_id=2, row='C', number=3, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=21321.0, email='customer@example.com')
+2026-01-15 09:40:13,322 | INFO | POST /tickets/cancel/13
+2026-01-15 09:40:13,328 | INFO | Seat C4 marked as available
+2026-01-15 09:40:13,329 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:13,330 | INFO | Ticket cancelled: Ticket(id=13, session_id=2, row='C', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=21321.0, email='customer@example.com')
+2026-01-15 09:40:13,335 | INFO | POST /tickets/cancel/14
+2026-01-15 09:40:13,341 | INFO | Seat B4 marked as available
+2026-01-15 09:40:13,343 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:13,343 | INFO | Ticket cancelled: Ticket(id=14, session_id=2, row='B', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=21321.0, email='customer@example.com')
+2026-01-15 09:40:13,365 | INFO | GET /tickets/session/2
+2026-01-15 09:40:15,860 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B3
+2026-01-15 09:40:15,869 | INFO | Seat B3 marked as reserved
+2026-01-15 09:40:15,870 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:15,870 | INFO | Ticket 15 reserved successfully
+2026-01-15 09:40:15,895 | INFO | POST /api/ticket/tickets/reserve - session 2, seat C3
+2026-01-15 09:40:15,906 | INFO | Seat C3 marked as reserved
+2026-01-15 09:40:15,907 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:15,907 | INFO | Ticket 16 reserved successfully
+2026-01-15 09:40:15,931 | INFO | POST /tickets/confirm/15
+2026-01-15 09:40:15,932 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:15,932 | INFO | Ticket sold: Ticket(id=15, session_id=2, row='B', number=3, status=<TicketStatus.SOLD: 'SOLD'>, price=21321.0, email='customer@example.com')
+2026-01-15 09:40:15,938 | INFO | POST /tickets/confirm/16
+2026-01-15 09:40:15,939 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:40:15,939 | INFO | Ticket sold: Ticket(id=16, session_id=2, row='C', number=3, status=<TicketStatus.SOLD: 'SOLD'>, price=21321.0, email='customer@example.com')
+2026-01-15 09:40:15,970 | INFO | GET /tickets/session/2
+2026-01-15 09:42:08,961 | INFO | Tickets file not found, using default data
+2026-01-15 09:42:09,017 | INFO | Ticket Service started
+2026-01-15 09:46:36,959 | INFO | GET /tickets/session/2
+2026-01-15 09:46:38,978 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A4
+2026-01-15 09:46:38,994 | INFO | Seat A4 marked as reserved
+2026-01-15 09:46:38,995 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:38,996 | INFO | Ticket 1 reserved successfully
+2026-01-15 09:46:39,021 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A5
+2026-01-15 09:46:39,033 | INFO | Seat A5 marked as reserved
+2026-01-15 09:46:39,035 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:39,035 | INFO | Ticket 2 reserved successfully
+2026-01-15 09:46:39,084 | INFO | POST /tickets/confirm/1
+2026-01-15 09:46:39,085 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:39,085 | INFO | Ticket sold: Ticket(id=1, session_id=2, row='A', number=4, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:39,094 | INFO | POST /tickets/confirm/2
+2026-01-15 09:46:39,095 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:39,096 | INFO | Ticket sold: Ticket(id=2, session_id=2, row='A', number=5, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:39,139 | INFO | GET /tickets/session/2
+2026-01-15 09:46:42,021 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A6
+2026-01-15 09:46:42,034 | INFO | Seat A6 marked as reserved
+2026-01-15 09:46:42,035 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:42,036 | INFO | Ticket 3 reserved successfully
+2026-01-15 09:46:42,065 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A7
+2026-01-15 09:46:42,074 | INFO | Seat A7 marked as reserved
+2026-01-15 09:46:42,076 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:42,078 | INFO | Ticket 4 reserved successfully
+2026-01-15 09:46:42,103 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A8
+2026-01-15 09:46:42,115 | INFO | Seat A8 marked as reserved
+2026-01-15 09:46:42,116 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:42,116 | INFO | Ticket 5 reserved successfully
+2026-01-15 09:46:42,142 | INFO | POST /tickets/confirm/3
+2026-01-15 09:46:42,144 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:42,144 | INFO | Ticket sold: Ticket(id=3, session_id=2, row='A', number=6, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:42,152 | INFO | POST /tickets/confirm/4
+2026-01-15 09:46:42,153 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:42,154 | INFO | Ticket sold: Ticket(id=4, session_id=2, row='A', number=7, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:42,164 | INFO | POST /tickets/confirm/5
+2026-01-15 09:46:42,164 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:42,165 | INFO | Ticket sold: Ticket(id=5, session_id=2, row='A', number=8, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:42,205 | INFO | GET /tickets/session/2
+2026-01-15 09:46:43,995 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A9
+2026-01-15 09:46:44,006 | INFO | Seat A9 marked as reserved
+2026-01-15 09:46:44,007 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:44,007 | INFO | Ticket 6 reserved successfully
+2026-01-15 09:46:44,035 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A10
+2026-01-15 09:46:44,046 | INFO | Seat A10 marked as reserved
+2026-01-15 09:46:44,048 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:44,048 | INFO | Ticket 7 reserved successfully
+2026-01-15 09:46:44,076 | INFO | POST /tickets/confirm/6
+2026-01-15 09:46:44,077 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:44,078 | INFO | Ticket sold: Ticket(id=6, session_id=2, row='A', number=9, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:44,086 | INFO | POST /tickets/confirm/7
+2026-01-15 09:46:44,087 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:44,087 | INFO | Ticket sold: Ticket(id=7, session_id=2, row='A', number=10, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:44,121 | INFO | GET /tickets/session/2
+2026-01-15 09:46:45,518 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B1
+2026-01-15 09:46:45,530 | INFO | Seat B1 marked as reserved
+2026-01-15 09:46:45,530 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:45,531 | INFO | Ticket 8 reserved successfully
+2026-01-15 09:46:45,562 | INFO | POST /tickets/confirm/8
+2026-01-15 09:46:45,563 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:45,563 | INFO | Ticket sold: Ticket(id=8, session_id=2, row='B', number=1, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:45,597 | INFO | GET /tickets/session/2
+2026-01-15 09:46:47,318 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B2
+2026-01-15 09:46:47,329 | INFO | Seat B2 marked as reserved
+2026-01-15 09:46:47,330 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:47,331 | INFO | Ticket 9 reserved successfully
+2026-01-15 09:46:47,356 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B3
+2026-01-15 09:46:47,367 | INFO | Seat B3 marked as reserved
+2026-01-15 09:46:47,368 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:47,368 | INFO | Ticket 10 reserved successfully
+2026-01-15 09:46:47,397 | INFO | POST /tickets/cancel/9
+2026-01-15 09:46:47,402 | INFO | Seat B2 marked as available
+2026-01-15 09:46:47,403 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:47,403 | INFO | Ticket cancelled: Ticket(id=9, session_id=2, row='B', number=2, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:47,411 | INFO | POST /tickets/cancel/10
+2026-01-15 09:46:47,416 | INFO | Seat B3 marked as available
+2026-01-15 09:46:47,417 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:47,417 | INFO | Ticket cancelled: Ticket(id=10, session_id=2, row='B', number=3, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:47,446 | INFO | GET /tickets/session/2
+2026-01-15 09:46:50,190 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B4
+2026-01-15 09:46:50,200 | INFO | Seat B4 marked as reserved
+2026-01-15 09:46:50,201 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:50,201 | INFO | Ticket 11 reserved successfully
+2026-01-15 09:46:50,226 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B5
+2026-01-15 09:46:50,235 | INFO | Seat B5 marked as reserved
+2026-01-15 09:46:50,236 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:50,236 | INFO | Ticket 12 reserved successfully
+2026-01-15 09:46:50,258 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B3
+2026-01-15 09:46:50,266 | INFO | Seat B3 marked as reserved
+2026-01-15 09:46:50,267 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:50,267 | INFO | Ticket 13 reserved successfully
+2026-01-15 09:46:50,292 | INFO | POST /tickets/cancel/11
+2026-01-15 09:46:50,297 | INFO | Seat B4 marked as available
+2026-01-15 09:46:50,298 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:50,298 | INFO | Ticket cancelled: Ticket(id=11, session_id=2, row='B', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:50,305 | INFO | POST /tickets/cancel/12
+2026-01-15 09:46:50,309 | INFO | Seat B5 marked as available
+2026-01-15 09:46:50,310 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:50,311 | INFO | Ticket cancelled: Ticket(id=12, session_id=2, row='B', number=5, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:50,317 | INFO | POST /tickets/cancel/13
+2026-01-15 09:46:50,322 | INFO | Seat B3 marked as available
+2026-01-15 09:46:50,323 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:50,323 | INFO | Ticket cancelled: Ticket(id=13, session_id=2, row='B', number=3, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:50,348 | INFO | GET /tickets/session/2
+2026-01-15 09:46:53,220 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B3
+2026-01-15 09:46:53,231 | INFO | Seat B3 marked as reserved
+2026-01-15 09:46:53,232 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:53,232 | INFO | Ticket 14 reserved successfully
+2026-01-15 09:46:53,258 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B4
+2026-01-15 09:46:53,268 | INFO | Seat B4 marked as reserved
+2026-01-15 09:46:53,269 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:53,269 | INFO | Ticket 15 reserved successfully
+2026-01-15 09:46:53,291 | INFO | POST /api/ticket/tickets/reserve - session 2, seat B5
+2026-01-15 09:46:53,300 | INFO | Seat B5 marked as reserved
+2026-01-15 09:46:53,301 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:53,302 | INFO | Ticket 16 reserved successfully
+2026-01-15 09:46:53,328 | INFO | POST /tickets/confirm/14
+2026-01-15 09:46:53,329 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:53,330 | INFO | Ticket sold: Ticket(id=14, session_id=2, row='B', number=3, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:53,337 | INFO | POST /tickets/confirm/15
+2026-01-15 09:46:53,338 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:53,338 | INFO | Ticket sold: Ticket(id=15, session_id=2, row='B', number=4, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:53,347 | INFO | POST /tickets/confirm/16
+2026-01-15 09:46:53,348 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:46:53,349 | INFO | Ticket sold: Ticket(id=16, session_id=2, row='B', number=5, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 09:46:53,385 | INFO | GET /tickets/session/2
+2026-01-15 09:54:44,692 | INFO | Tickets file not found, using default data
+2026-01-15 09:54:44,753 | INFO | Ticket Service started
+2026-01-15 09:55:53,949 | INFO | GET /tickets/session/2
+2026-01-15 09:55:56,620 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A1
+2026-01-15 09:55:56,634 | INFO | Seat A1 marked as reserved
+2026-01-15 09:55:56,635 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:56,635 | INFO | Ticket 1 reserved successfully
+2026-01-15 09:55:56,660 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A2
+2026-01-15 09:55:56,670 | INFO | Seat A2 marked as reserved
+2026-01-15 09:55:56,671 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:56,671 | INFO | Ticket 2 reserved successfully
+2026-01-15 09:55:56,693 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A3
+2026-01-15 09:55:56,703 | INFO | Seat A3 marked as reserved
+2026-01-15 09:55:56,704 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:56,705 | INFO | Ticket 3 reserved successfully
+2026-01-15 09:55:56,727 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A4
+2026-01-15 09:55:56,738 | INFO | Seat A4 marked as reserved
+2026-01-15 09:55:56,739 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:56,740 | INFO | Ticket 4 reserved successfully
+2026-01-15 09:55:56,778 | INFO | POST /tickets/cancel/1
+2026-01-15 09:55:56,783 | INFO | Seat A1 marked as available
+2026-01-15 09:55:56,784 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:56,785 | INFO | Ticket cancelled: Ticket(id=1, session_id=2, row='A', number=1, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=11111.0, email='customer@example.com')
+2026-01-15 09:55:56,793 | INFO | POST /tickets/cancel/2
+2026-01-15 09:55:56,799 | INFO | Seat A2 marked as available
+2026-01-15 09:55:56,800 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:56,800 | INFO | Ticket cancelled: Ticket(id=2, session_id=2, row='A', number=2, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=11111.0, email='customer@example.com')
+2026-01-15 09:55:56,807 | INFO | POST /tickets/cancel/3
+2026-01-15 09:55:56,813 | INFO | Seat A3 marked as available
+2026-01-15 09:55:56,814 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:56,814 | INFO | Ticket cancelled: Ticket(id=3, session_id=2, row='A', number=3, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=11111.0, email='customer@example.com')
+2026-01-15 09:55:56,821 | INFO | POST /tickets/cancel/4
+2026-01-15 09:55:56,826 | INFO | Seat A4 marked as available
+2026-01-15 09:55:56,827 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:56,827 | INFO | Ticket cancelled: Ticket(id=4, session_id=2, row='A', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=11111.0, email='customer@example.com')
+2026-01-15 09:55:56,855 | INFO | GET /tickets/session/2
+2026-01-15 09:55:59,575 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A1
+2026-01-15 09:55:59,585 | INFO | Seat A1 marked as reserved
+2026-01-15 09:55:59,586 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:59,587 | INFO | Ticket 5 reserved successfully
+2026-01-15 09:55:59,611 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A2
+2026-01-15 09:55:59,621 | INFO | Seat A2 marked as reserved
+2026-01-15 09:55:59,622 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:59,622 | INFO | Ticket 6 reserved successfully
+2026-01-15 09:55:59,644 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A3
+2026-01-15 09:55:59,653 | INFO | Seat A3 marked as reserved
+2026-01-15 09:55:59,654 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:59,654 | INFO | Ticket 7 reserved successfully
+2026-01-15 09:55:59,676 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A4
+2026-01-15 09:55:59,686 | INFO | Seat A4 marked as reserved
+2026-01-15 09:55:59,687 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:59,688 | INFO | Ticket 8 reserved successfully
+2026-01-15 09:55:59,713 | INFO | POST /tickets/cancel/5
+2026-01-15 09:55:59,717 | INFO | Seat A1 marked as available
+2026-01-15 09:55:59,718 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:59,719 | INFO | Ticket cancelled: Ticket(id=5, session_id=2, row='A', number=1, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=11111.0, email='customer@example.com')
+2026-01-15 09:55:59,726 | INFO | POST /tickets/cancel/6
+2026-01-15 09:55:59,730 | INFO | Seat A2 marked as available
+2026-01-15 09:55:59,731 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:59,732 | INFO | Ticket cancelled: Ticket(id=6, session_id=2, row='A', number=2, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=11111.0, email='customer@example.com')
+2026-01-15 09:55:59,739 | INFO | POST /tickets/cancel/7
+2026-01-15 09:55:59,744 | INFO | Seat A3 marked as available
+2026-01-15 09:55:59,745 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:59,745 | INFO | Ticket cancelled: Ticket(id=7, session_id=2, row='A', number=3, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=11111.0, email='customer@example.com')
+2026-01-15 09:55:59,753 | INFO | POST /tickets/cancel/8
+2026-01-15 09:55:59,758 | INFO | Seat A4 marked as available
+2026-01-15 09:55:59,759 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:55:59,759 | INFO | Ticket cancelled: Ticket(id=8, session_id=2, row='A', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=11111.0, email='customer@example.com')
+2026-01-15 09:55:59,785 | INFO | GET /tickets/session/2
+2026-01-15 09:56:02,134 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A1
+2026-01-15 09:56:02,144 | INFO | Seat A1 marked as reserved
+2026-01-15 09:56:02,145 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:56:02,145 | INFO | Ticket 9 reserved successfully
+2026-01-15 09:56:02,171 | INFO | POST /tickets/cancel/9
+2026-01-15 09:56:02,176 | INFO | Seat A1 marked as available
+2026-01-15 09:56:02,177 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:56:02,178 | INFO | Ticket cancelled: Ticket(id=9, session_id=2, row='A', number=1, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=11111.0, email='customer@example.com')
+2026-01-15 09:56:02,200 | INFO | GET /tickets/session/2
+2026-01-15 09:56:04,180 | INFO | POST /api/ticket/tickets/reserve - session 2, seat A1
+2026-01-15 09:56:04,189 | INFO | Seat A1 marked as reserved
+2026-01-15 09:56:04,190 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:56:04,190 | INFO | Ticket 10 reserved successfully
+2026-01-15 09:56:04,216 | INFO | POST /tickets/confirm/10
+2026-01-15 09:56:04,217 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 09:56:04,217 | INFO | Ticket sold: Ticket(id=10, session_id=2, row='A', number=1, status=<TicketStatus.SOLD: 'SOLD'>, price=11111.0, email='customer@example.com')
+2026-01-15 09:56:04,255 | INFO | GET /tickets/session/2
+2026-01-15 10:02:28,224 | INFO | GET /tickets/session/5
+2026-01-15 10:02:31,400 | INFO | POST /api/ticket/tickets/reserve - session 5, seat B3
+2026-01-15 10:02:31,409 | INFO | Seat B3 marked as reserved
+2026-01-15 10:02:31,410 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 10:02:31,411 | INFO | Ticket 11 reserved successfully
+2026-01-15 10:02:31,433 | INFO | POST /api/ticket/tickets/reserve - session 5, seat B4
+2026-01-15 10:02:31,441 | INFO | Seat B4 marked as reserved
+2026-01-15 10:02:31,442 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 10:02:31,443 | INFO | Ticket 12 reserved successfully
+2026-01-15 10:02:31,464 | INFO | POST /api/ticket/tickets/reserve - session 5, seat B5
+2026-01-15 10:02:31,473 | INFO | Seat B5 marked as reserved
+2026-01-15 10:02:31,474 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 10:02:31,474 | INFO | Ticket 13 reserved successfully
+2026-01-15 10:02:31,506 | INFO | POST /tickets/confirm/11
+2026-01-15 10:02:31,507 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 10:02:31,507 | INFO | Ticket sold: Ticket(id=11, session_id=5, row='B', number=3, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 10:02:31,514 | INFO | POST /tickets/confirm/12
+2026-01-15 10:02:31,515 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 10:02:31,515 | INFO | Ticket sold: Ticket(id=12, session_id=5, row='B', number=4, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 10:02:31,522 | INFO | POST /tickets/confirm/13
+2026-01-15 10:02:31,523 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 10:02:31,523 | INFO | Ticket sold: Ticket(id=13, session_id=5, row='B', number=5, status=<TicketStatus.SOLD: 'SOLD'>, price=666.0, email='customer@example.com')
+2026-01-15 10:02:31,558 | INFO | GET /tickets/session/5
+2026-01-15 10:02:34,161 | INFO | GET /tickets
+2026-01-15 10:02:39,230 | INFO | POST /tickets/cancel/10
+2026-01-15 10:02:39,302 | INFO | Seat A1 marked as available
+2026-01-15 10:02:39,304 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 10:02:39,305 | INFO | Ticket cancelled: Ticket(id=10, session_id=2, row='A', number=1, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=11111.0, email='customer@example.com')
+2026-01-15 10:02:39,372 | INFO | GET /tickets
+2026-01-15 10:02:40,902 | INFO | POST /tickets/cancel/12
+2026-01-15 10:02:40,907 | INFO | Seat B4 marked as available
+2026-01-15 10:02:40,908 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 10:02:40,908 | INFO | Ticket cancelled: Ticket(id=12, session_id=5, row='B', number=4, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=666.0, email='customer@example.com')
+2026-01-15 10:02:40,934 | INFO | GET /tickets
+2026-01-15 10:02:42,433 | INFO | GET /tickets
+2026-01-15 10:02:42,453 | INFO | POST /tickets/cancel/11
+2026-01-15 10:02:42,458 | INFO | Seat B3 marked as available
+2026-01-15 10:02:42,459 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 10:02:42,460 | INFO | Ticket cancelled: Ticket(id=11, session_id=5, row='B', number=3, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=666.0, email='customer@example.com')
+2026-01-15 10:02:42,489 | INFO | POST /tickets/cancel/13
+2026-01-15 10:02:42,494 | INFO | Seat B5 marked as available
+2026-01-15 10:02:42,495 | INFO | Tickets saved to /app/data/tickets.json
+2026-01-15 10:02:42,495 | INFO | Ticket cancelled: Ticket(id=13, session_id=5, row='B', number=5, status=<TicketStatus.CANCELLED: 'CANCELLED'>, price=666.0, email='customer@example.com')
+2026-01-15 10:02:42,512 | INFO | GET /tickets

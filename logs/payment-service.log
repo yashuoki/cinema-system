@@ -1,0 +1,256 @@
+2026-01-15 09:04:25,035 | INFO | Payment Service started
+2026-01-15 09:05:59,671 | INFO | Payment Service started
+2026-01-15 09:08:35,782 | INFO | Bulk payment initiated for tickets [1], total amount 250.0, email test@example.com
+2026-01-15 09:08:35,793 | INFO | Ticket 1 confirmed
+2026-01-15 09:08:35,808 | INFO | Notification triggered for ticket 1, event: purchase
+2026-01-15 09:08:35,817 | INFO | Bulk payment successful for tickets [1]
+2026-01-15 09:12:14,508 | INFO | Bulk payment initiated for tickets [2], total amount 144.0, email customer@example.com
+2026-01-15 09:12:14,517 | INFO | Ticket 2 confirmed
+2026-01-15 09:12:14,526 | INFO | Notification triggered for ticket 2, event: purchase
+2026-01-15 09:12:14,529 | INFO | Bulk payment successful for tickets [2]
+2026-01-15 09:12:16,814 | INFO | Bulk payment initiated for tickets [3], total amount 144.0, email customer@example.com
+2026-01-15 09:12:16,828 | INFO | Ticket 3 cancelled
+2026-01-15 09:12:16,829 | WARNING | Bulk payment failed for tickets [3]
+2026-01-15 09:12:18,814 | INFO | Bulk payment initiated for tickets [4], total amount 144.0, email customer@example.com
+2026-01-15 09:12:18,823 | INFO | Ticket 4 confirmed
+2026-01-15 09:12:18,827 | INFO | Notification triggered for ticket 4, event: purchase
+2026-01-15 09:12:18,828 | INFO | Bulk payment successful for tickets [4]
+2026-01-15 09:12:22,120 | INFO | Bulk payment initiated for tickets [5, 6, 7, 8, 9], total amount 720.0, email customer@example.com
+2026-01-15 09:12:22,134 | INFO | Ticket 5 cancelled
+2026-01-15 09:12:22,147 | INFO | Ticket 6 cancelled
+2026-01-15 09:12:22,160 | INFO | Ticket 7 cancelled
+2026-01-15 09:12:22,172 | INFO | Ticket 8 cancelled
+2026-01-15 09:12:22,185 | INFO | Ticket 9 cancelled
+2026-01-15 09:12:22,185 | WARNING | Bulk payment failed for tickets [5, 6, 7, 8, 9]
+2026-01-15 09:12:25,765 | INFO | Bulk payment initiated for tickets [10, 11, 12, 13, 14], total amount 720.0, email customer@example.com
+2026-01-15 09:12:25,773 | INFO | Ticket 10 confirmed
+2026-01-15 09:12:25,780 | INFO | Ticket 11 confirmed
+2026-01-15 09:12:25,787 | INFO | Ticket 12 confirmed
+2026-01-15 09:12:25,794 | INFO | Ticket 13 confirmed
+2026-01-15 09:12:25,801 | INFO | Ticket 14 confirmed
+2026-01-15 09:12:25,805 | INFO | Notification triggered for ticket 10, event: purchase
+2026-01-15 09:12:25,808 | INFO | Notification triggered for ticket 11, event: purchase
+2026-01-15 09:12:25,812 | INFO | Notification triggered for ticket 12, event: purchase
+2026-01-15 09:12:25,816 | INFO | Notification triggered for ticket 13, event: purchase
+2026-01-15 09:12:25,819 | INFO | Notification triggered for ticket 14, event: purchase
+2026-01-15 09:12:25,820 | INFO | Bulk payment successful for tickets [10, 11, 12, 13, 14]
+2026-01-15 09:12:30,163 | INFO | Bulk payment initiated for tickets [15, 16, 17, 18, 19, 20], total amount 864.0, email customer@example.com
+2026-01-15 09:12:30,172 | INFO | Ticket 15 confirmed
+2026-01-15 09:12:30,181 | INFO | Ticket 16 confirmed
+2026-01-15 09:12:30,189 | INFO | Ticket 17 confirmed
+2026-01-15 09:12:30,197 | INFO | Ticket 18 confirmed
+2026-01-15 09:12:30,205 | INFO | Ticket 19 confirmed
+2026-01-15 09:12:30,212 | INFO | Ticket 20 confirmed
+2026-01-15 09:12:30,215 | INFO | Notification triggered for ticket 15, event: purchase
+2026-01-15 09:12:30,219 | INFO | Notification triggered for ticket 16, event: purchase
+2026-01-15 09:12:30,222 | INFO | Notification triggered for ticket 17, event: purchase
+2026-01-15 09:12:30,225 | INFO | Notification triggered for ticket 18, event: purchase
+2026-01-15 09:12:30,229 | INFO | Notification triggered for ticket 19, event: purchase
+2026-01-15 09:12:30,232 | INFO | Notification triggered for ticket 20, event: purchase
+2026-01-15 09:12:30,232 | INFO | Bulk payment successful for tickets [15, 16, 17, 18, 19, 20]
+2026-01-15 09:12:32,360 | INFO | Bulk payment initiated for tickets [21, 22], total amount 288.0, email customer@example.com
+2026-01-15 09:12:32,370 | INFO | Ticket 21 confirmed
+2026-01-15 09:12:32,378 | INFO | Ticket 22 confirmed
+2026-01-15 09:12:32,382 | INFO | Notification triggered for ticket 21, event: purchase
+2026-01-15 09:12:32,385 | INFO | Notification triggered for ticket 22, event: purchase
+2026-01-15 09:12:32,386 | INFO | Bulk payment successful for tickets [21, 22]
+2026-01-15 09:12:34,783 | INFO | Bulk payment initiated for tickets [23, 24, 25], total amount 432.0, email customer@example.com
+2026-01-15 09:12:34,812 | INFO | Ticket 23 cancelled
+2026-01-15 09:12:34,841 | INFO | Ticket 24 cancelled
+2026-01-15 09:12:34,876 | INFO | Ticket 25 cancelled
+2026-01-15 09:12:34,877 | WARNING | Bulk payment failed for tickets [23, 24, 25]
+2026-01-15 09:12:38,254 | INFO | Bulk payment initiated for tickets [26, 27, 28], total amount 432.0, email customer@example.com
+2026-01-15 09:12:38,263 | INFO | Ticket 26 confirmed
+2026-01-15 09:12:38,271 | INFO | Ticket 27 confirmed
+2026-01-15 09:12:38,279 | INFO | Ticket 28 confirmed
+2026-01-15 09:12:38,283 | INFO | Notification triggered for ticket 26, event: purchase
+2026-01-15 09:12:38,286 | INFO | Notification triggered for ticket 27, event: purchase
+2026-01-15 09:12:38,290 | INFO | Notification triggered for ticket 28, event: purchase
+2026-01-15 09:12:38,290 | INFO | Bulk payment successful for tickets [26, 27, 28]
+2026-01-15 09:12:52,651 | INFO | Refund requested for ticket 13, reason: Возврат по просьбе пользователя
+2026-01-15 09:12:52,677 | INFO | Ticket 13 cancelled
+2026-01-15 09:12:52,681 | INFO | Refund successful for ticket 13
+2026-01-15 09:12:55,111 | INFO | Refund requested for ticket 17, reason: Возврат по просьбе пользователя
+2026-01-15 09:12:55,128 | INFO | Ticket 17 cancelled
+2026-01-15 09:12:55,134 | INFO | Refund successful for ticket 17
+2026-01-15 09:12:59,832 | INFO | Refund requested for ticket 16, reason: Возврат по просьбе пользователя
+2026-01-15 09:12:59,865 | INFO | Ticket 16 cancelled
+2026-01-15 09:12:59,869 | INFO | Refund successful for ticket 16
+2026-01-15 09:13:02,896 | INFO | Bulk payment initiated for tickets [29], total amount 144.0, email customer@example.com
+2026-01-15 09:13:02,909 | INFO | Ticket 29 cancelled
+2026-01-15 09:13:02,910 | WARNING | Bulk payment failed for tickets [29]
+2026-01-15 09:13:06,197 | INFO | Bulk payment initiated for tickets [30], total amount 144.0, email customer@example.com
+2026-01-15 09:13:06,205 | INFO | Ticket 30 confirmed
+2026-01-15 09:13:06,208 | INFO | Notification triggered for ticket 30, event: purchase
+2026-01-15 09:13:06,209 | INFO | Bulk payment successful for tickets [30]
+2026-01-15 09:13:34,204 | INFO | Bulk payment initiated for tickets [31], total amount 333.0, email customer@example.com
+2026-01-15 09:13:34,222 | INFO | Ticket 31 cancelled
+2026-01-15 09:13:34,223 | WARNING | Bulk payment failed for tickets [31]
+2026-01-15 09:13:37,219 | INFO | Bulk payment initiated for tickets [32], total amount 333.0, email customer@example.com
+2026-01-15 09:13:37,227 | INFO | Ticket 32 confirmed
+2026-01-15 09:13:37,231 | INFO | Notification triggered for ticket 32, event: purchase
+2026-01-15 09:13:37,231 | INFO | Bulk payment successful for tickets [32]
+2026-01-15 09:13:40,002 | INFO | Bulk payment initiated for tickets [33, 34, 35, 36], total amount 1332.0, email customer@example.com
+2026-01-15 09:13:40,011 | INFO | Ticket 33 confirmed
+2026-01-15 09:13:40,020 | INFO | Ticket 34 confirmed
+2026-01-15 09:13:40,029 | INFO | Ticket 35 confirmed
+2026-01-15 09:13:40,037 | INFO | Ticket 36 confirmed
+2026-01-15 09:13:40,041 | INFO | Notification triggered for ticket 33, event: purchase
+2026-01-15 09:13:40,044 | INFO | Notification triggered for ticket 34, event: purchase
+2026-01-15 09:13:40,048 | INFO | Notification triggered for ticket 35, event: purchase
+2026-01-15 09:13:40,052 | INFO | Notification triggered for ticket 36, event: purchase
+2026-01-15 09:13:40,052 | INFO | Bulk payment successful for tickets [33, 34, 35, 36]
+2026-01-15 09:13:44,130 | INFO | Bulk payment initiated for tickets [37, 38, 39, 40, 41, 42, 43], total amount 2331.0, email customer@example.com
+2026-01-15 09:13:44,144 | INFO | Ticket 37 cancelled
+2026-01-15 09:13:44,158 | INFO | Ticket 38 cancelled
+2026-01-15 09:13:44,171 | INFO | Ticket 39 cancelled
+2026-01-15 09:13:44,184 | INFO | Ticket 40 cancelled
+2026-01-15 09:13:44,196 | INFO | Ticket 41 cancelled
+2026-01-15 09:13:44,209 | INFO | Ticket 42 cancelled
+2026-01-15 09:13:44,223 | INFO | Ticket 43 cancelled
+2026-01-15 09:13:44,224 | WARNING | Bulk payment failed for tickets [37, 38, 39, 40, 41, 42, 43]
+2026-01-15 09:13:47,825 | INFO | Bulk payment initiated for tickets [44, 45, 46, 47, 48, 49], total amount 1998.0, email customer@example.com
+2026-01-15 09:13:47,838 | INFO | Ticket 44 cancelled
+2026-01-15 09:13:47,851 | INFO | Ticket 45 cancelled
+2026-01-15 09:13:47,864 | INFO | Ticket 46 cancelled
+2026-01-15 09:13:47,877 | INFO | Ticket 47 cancelled
+2026-01-15 09:13:47,889 | INFO | Ticket 48 cancelled
+2026-01-15 09:13:47,904 | INFO | Ticket 49 cancelled
+2026-01-15 09:13:47,904 | WARNING | Bulk payment failed for tickets [44, 45, 46, 47, 48, 49]
+2026-01-15 09:13:51,766 | INFO | Bulk payment initiated for tickets [50, 51, 52, 53, 54, 55], total amount 1998.0, email customer@example.com
+2026-01-15 09:13:51,776 | INFO | Ticket 50 confirmed
+2026-01-15 09:13:51,784 | INFO | Ticket 51 confirmed
+2026-01-15 09:13:51,792 | INFO | Ticket 52 confirmed
+2026-01-15 09:13:51,801 | INFO | Ticket 53 confirmed
+2026-01-15 09:13:51,809 | INFO | Ticket 54 confirmed
+2026-01-15 09:13:51,817 | INFO | Ticket 55 confirmed
+2026-01-15 09:13:51,821 | INFO | Notification triggered for ticket 50, event: purchase
+2026-01-15 09:13:51,825 | INFO | Notification triggered for ticket 51, event: purchase
+2026-01-15 09:13:51,829 | INFO | Notification triggered for ticket 52, event: purchase
+2026-01-15 09:13:51,833 | INFO | Notification triggered for ticket 53, event: purchase
+2026-01-15 09:13:51,837 | INFO | Notification triggered for ticket 54, event: purchase
+2026-01-15 09:13:51,840 | INFO | Notification triggered for ticket 55, event: purchase
+2026-01-15 09:13:51,841 | INFO | Bulk payment successful for tickets [50, 51, 52, 53, 54, 55]
+2026-01-15 09:16:28,224 | INFO | Bulk payment initiated for tickets [56, 57, 58], total amount 999.0, email customer@example.com
+2026-01-15 09:16:28,239 | INFO | Ticket 56 cancelled
+2026-01-15 09:16:28,252 | INFO | Ticket 57 cancelled
+2026-01-15 09:16:28,264 | INFO | Ticket 58 cancelled
+2026-01-15 09:16:28,265 | WARNING | Bulk payment failed for tickets [56, 57, 58]
+2026-01-15 09:16:32,002 | INFO | Bulk payment initiated for tickets [59, 60, 61], total amount 999.0, email customer@example.com
+2026-01-15 09:16:32,010 | INFO | Ticket 59 confirmed
+2026-01-15 09:16:32,019 | INFO | Ticket 60 confirmed
+2026-01-15 09:16:32,027 | INFO | Ticket 61 confirmed
+2026-01-15 09:16:32,033 | INFO | Notification triggered for ticket 59, event: purchase
+2026-01-15 09:16:32,037 | INFO | Notification triggered for ticket 60, event: purchase
+2026-01-15 09:16:32,041 | INFO | Notification triggered for ticket 61, event: purchase
+2026-01-15 09:16:32,041 | INFO | Bulk payment successful for tickets [59, 60, 61]
+2026-01-15 09:25:21,345 | INFO | Payment Service started
+2026-01-15 09:31:15,632 | INFO | Payment Service started
+2026-01-15 09:32:14,367 | INFO | Payment Service started
+2026-01-15 09:35:20,482 | INFO | Bulk payment initiated for tickets [1, 2, 3], total amount 333.0, email customer@example.com
+2026-01-15 09:35:20,494 | INFO | Ticket 1 confirmed
+2026-01-15 09:35:20,502 | INFO | Ticket 2 confirmed
+2026-01-15 09:35:20,512 | INFO | Ticket 3 confirmed
+2026-01-15 09:35:20,528 | INFO | Notification triggered for ticket 1, event: purchase
+2026-01-15 09:35:20,531 | INFO | Notification triggered for ticket 2, event: purchase
+2026-01-15 09:35:20,535 | INFO | Notification triggered for ticket 3, event: purchase
+2026-01-15 09:35:20,535 | INFO | Bulk payment successful for tickets [1, 2, 3]
+2026-01-15 09:35:22,565 | INFO | Bulk payment initiated for tickets [4, 5, 6], total amount 333.0, email customer@example.com
+2026-01-15 09:35:22,580 | INFO | Ticket 4 cancelled
+2026-01-15 09:35:22,594 | INFO | Ticket 5 cancelled
+2026-01-15 09:35:22,608 | INFO | Ticket 6 cancelled
+2026-01-15 09:35:22,608 | WARNING | Bulk payment failed for tickets [4, 5, 6]
+2026-01-15 09:40:09,513 | INFO | Bulk payment initiated for tickets [7, 8, 9, 10], total amount 85284.0, email customer@example.com
+2026-01-15 09:40:09,552 | INFO | Ticket 7 cancelled
+2026-01-15 09:40:09,573 | INFO | Ticket 8 cancelled
+2026-01-15 09:40:09,591 | INFO | Ticket 9 cancelled
+2026-01-15 09:40:09,613 | INFO | Ticket 10 cancelled
+2026-01-15 09:40:09,614 | WARNING | Bulk payment failed for tickets [7, 8, 9, 10]
+2026-01-15 09:40:13,289 | INFO | Bulk payment initiated for tickets [11, 12, 13, 14], total amount 85284.0, email customer@example.com
+2026-01-15 09:40:13,304 | INFO | Ticket 11 cancelled
+2026-01-15 09:40:13,319 | INFO | Ticket 12 cancelled
+2026-01-15 09:40:13,333 | INFO | Ticket 13 cancelled
+2026-01-15 09:40:13,347 | INFO | Ticket 14 cancelled
+2026-01-15 09:40:13,347 | WARNING | Bulk payment failed for tickets [11, 12, 13, 14]
+2026-01-15 09:40:15,928 | INFO | Bulk payment initiated for tickets [15, 16], total amount 42642.0, email customer@example.com
+2026-01-15 09:40:15,936 | INFO | Ticket 15 confirmed
+2026-01-15 09:40:15,943 | INFO | Ticket 16 confirmed
+2026-01-15 09:40:15,948 | INFO | Notification triggered for ticket 15, event: purchase
+2026-01-15 09:40:15,951 | INFO | Notification triggered for ticket 16, event: purchase
+2026-01-15 09:40:15,951 | INFO | Bulk payment successful for tickets [15, 16]
+2026-01-15 09:42:20,183 | INFO | Payment Service started
+2026-01-15 09:46:39,079 | INFO | Bulk payment initiated for tickets [1, 2], total amount 1332.0, email customer@example.com
+2026-01-15 09:46:39,090 | INFO | Ticket 1 confirmed
+2026-01-15 09:46:39,100 | INFO | Ticket 2 confirmed
+2026-01-15 09:46:39,115 | INFO | Notification triggered for ticket 1, event: purchase
+2026-01-15 09:46:39,119 | INFO | Notification triggered for ticket 2, event: purchase
+2026-01-15 09:46:39,120 | INFO | Bulk payment successful for tickets [1, 2]
+2026-01-15 09:46:42,139 | INFO | Bulk payment initiated for tickets [3, 4, 5], total amount 1998.0, email customer@example.com
+2026-01-15 09:46:42,149 | INFO | Ticket 3 confirmed
+2026-01-15 09:46:42,161 | INFO | Ticket 4 confirmed
+2026-01-15 09:46:42,170 | INFO | Ticket 5 confirmed
+2026-01-15 09:46:42,174 | INFO | Notification triggered for ticket 3, event: purchase
+2026-01-15 09:46:42,180 | INFO | Notification triggered for ticket 4, event: purchase
+2026-01-15 09:46:42,184 | INFO | Notification triggered for ticket 5, event: purchase
+2026-01-15 09:46:42,185 | INFO | Bulk payment successful for tickets [3, 4, 5]
+2026-01-15 09:46:44,073 | INFO | Bulk payment initiated for tickets [6, 7], total amount 1332.0, email customer@example.com
+2026-01-15 09:46:44,084 | INFO | Ticket 6 confirmed
+2026-01-15 09:46:44,094 | INFO | Ticket 7 confirmed
+2026-01-15 09:46:44,098 | INFO | Notification triggered for ticket 6, event: purchase
+2026-01-15 09:46:44,102 | INFO | Notification triggered for ticket 7, event: purchase
+2026-01-15 09:46:44,102 | INFO | Bulk payment successful for tickets [6, 7]
+2026-01-15 09:46:45,557 | INFO | Bulk payment initiated for tickets [8], total amount 666.0, email customer@example.com
+2026-01-15 09:46:45,568 | INFO | Ticket 8 confirmed
+2026-01-15 09:46:45,572 | INFO | Notification triggered for ticket 8, event: purchase
+2026-01-15 09:46:45,573 | INFO | Bulk payment successful for tickets [8]
+2026-01-15 09:46:47,394 | INFO | Bulk payment initiated for tickets [9, 10], total amount 1332.0, email customer@example.com
+2026-01-15 09:46:47,408 | INFO | Ticket 9 cancelled
+2026-01-15 09:46:47,423 | INFO | Ticket 10 cancelled
+2026-01-15 09:46:47,424 | WARNING | Bulk payment failed for tickets [9, 10]
+2026-01-15 09:46:50,290 | INFO | Bulk payment initiated for tickets [11, 12, 13], total amount 1998.0, email customer@example.com
+2026-01-15 09:46:50,302 | INFO | Ticket 11 cancelled
+2026-01-15 09:46:50,314 | INFO | Ticket 12 cancelled
+2026-01-15 09:46:50,328 | INFO | Ticket 13 cancelled
+2026-01-15 09:46:50,328 | WARNING | Bulk payment failed for tickets [11, 12, 13]
+2026-01-15 09:46:53,325 | INFO | Bulk payment initiated for tickets [14, 15, 16], total amount 1998.0, email customer@example.com
+2026-01-15 09:46:53,335 | INFO | Ticket 14 confirmed
+2026-01-15 09:46:53,344 | INFO | Ticket 15 confirmed
+2026-01-15 09:46:53,353 | INFO | Ticket 16 confirmed
+2026-01-15 09:46:53,357 | INFO | Notification triggered for ticket 14, event: purchase
+2026-01-15 09:46:53,361 | INFO | Notification triggered for ticket 15, event: purchase
+2026-01-15 09:46:53,365 | INFO | Notification triggered for ticket 16, event: purchase
+2026-01-15 09:46:53,366 | INFO | Bulk payment successful for tickets [14, 15, 16]
+2026-01-15 09:54:56,085 | INFO | Payment Service started
+2026-01-15 09:55:56,773 | INFO | Bulk payment initiated for tickets [1, 2, 3, 4], total amount 44444.0, email customer@example.com
+2026-01-15 09:55:56,790 | INFO | Ticket 1 cancelled
+2026-01-15 09:55:56,805 | INFO | Ticket 2 cancelled
+2026-01-15 09:55:56,818 | INFO | Ticket 3 cancelled
+2026-01-15 09:55:56,834 | INFO | Ticket 4 cancelled
+2026-01-15 09:55:56,834 | WARNING | Bulk payment failed for tickets [1, 2, 3, 4]
+2026-01-15 09:55:59,710 | INFO | Bulk payment initiated for tickets [5, 6, 7, 8], total amount 44444.0, email customer@example.com
+2026-01-15 09:55:59,723 | INFO | Ticket 5 cancelled
+2026-01-15 09:55:59,737 | INFO | Ticket 6 cancelled
+2026-01-15 09:55:59,750 | INFO | Ticket 7 cancelled
+2026-01-15 09:55:59,765 | INFO | Ticket 8 cancelled
+2026-01-15 09:55:59,765 | WARNING | Bulk payment failed for tickets [5, 6, 7, 8]
+2026-01-15 09:56:02,168 | INFO | Bulk payment initiated for tickets [9], total amount 11111.0, email customer@example.com
+2026-01-15 09:56:02,182 | INFO | Ticket 9 cancelled
+2026-01-15 09:56:02,183 | WARNING | Bulk payment failed for tickets [9]
+2026-01-15 09:56:04,213 | INFO | Bulk payment initiated for tickets [10], total amount 11111.0, email customer@example.com
+2026-01-15 09:56:04,222 | INFO | Ticket 10 confirmed
+2026-01-15 09:56:04,235 | INFO | Notification triggered for ticket 10, event: purchase
+2026-01-15 09:56:04,235 | INFO | Bulk payment successful for tickets [10]
+2026-01-15 10:02:31,503 | INFO | Bulk payment initiated for tickets [11, 12, 13], total amount 1998.0, email customer@example.com
+2026-01-15 10:02:31,512 | INFO | Ticket 11 confirmed
+2026-01-15 10:02:31,519 | INFO | Ticket 12 confirmed
+2026-01-15 10:02:31,527 | INFO | Ticket 13 confirmed
+2026-01-15 10:02:31,531 | INFO | Notification triggered for ticket 11, event: purchase
+2026-01-15 10:02:31,535 | INFO | Notification triggered for ticket 12, event: purchase
+2026-01-15 10:02:31,538 | INFO | Notification triggered for ticket 13, event: purchase
+2026-01-15 10:02:31,539 | INFO | Bulk payment successful for tickets [11, 12, 13]
+2026-01-15 10:02:39,201 | INFO | Refund requested for ticket 10, reason: Возврат по просьбе пользователя
+2026-01-15 10:02:39,312 | INFO | Ticket 10 cancelled
+2026-01-15 10:02:39,313 | INFO | Refund successful for ticket 10
+2026-01-15 10:02:40,899 | INFO | Refund requested for ticket 12, reason: Возврат по просьбе пользователя
+2026-01-15 10:02:40,912 | INFO | Ticket 12 cancelled
+2026-01-15 10:02:40,914 | INFO | Refund successful for ticket 12
